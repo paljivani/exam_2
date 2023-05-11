@@ -1,0 +1,62 @@
+.container
+{
+    max-width: 1440px ;
+    margin: 0 auto;
+}
+.product
+{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.box
+{
+    width: 280px;
+}
+.signup-box{
+    padding: 12px;
+    border-radius: 15px;
+    margin-top: 80px;
+    
+  }
+  .signup-box h2{
+    color: black;
+    font-weight: 500;
+    margin-bottom: 18px;
+    text-align: center;
+    display: inline-block;
+  }
+  .signup-box h2::selection{
+    display: none;
+  }
+  .signup-box input{
+    border: 2px solid #fca311;
+    background-color: transparent;
+    padding: 12px 28px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 18px auto;
+    color:#fca311;
+    font-weight: 500;
+    display: block;
+  }
+  .signup-box input::placeholder{
+    color: rgb(0, 0, 0);
+
+  }
+  .signup-box button{
+    display: block;
+    background-color: #fca311;
+    border: none;
+    color: #ffffff;
+    margin-top: 28px;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .signup-box button:hover
+  {
+    background-color: #ff9d00;
+  }
